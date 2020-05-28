@@ -1,0 +1,30 @@
+@import 'carbon-components/scss/globals/scss/_colors';
+@import 'carbon-components/scss/components/button/_button';
+@import 'carbon-components/scss/components/select/_select';
+@import 'carbon-components/scss/components/slider/_slider';
+@import 'carbon-components/scss/components/text-input/_text-input';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bx--select-input {
+  width: 14vw;
+}
+
+#select-problem-type {
+  max-width: 50vw !important;
+  width: 50vw !important;
+  color: #0f62fe;
+  font-size: x-large;
+}
